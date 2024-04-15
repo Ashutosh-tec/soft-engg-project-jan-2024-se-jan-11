@@ -1,5 +1,4 @@
-
-# Ticket System Integration with Discourse and Webhook 
+# Ticket System Integration with Discourse and Webhook
 
 ## Features
 
@@ -7,21 +6,19 @@
 - Create ticket on Ticket System Application along with post on Discourse.
 - Notification to GChat for High/Urgent priority ticket creation.
 
-
 ## Used Discourse API Docs
 
 [Documentation](https://docs.discourse.org/)
 
 [Discourse Installation](https://meta.discourse.org/t/install-discourse-for-development-using-docker/102009)
 
-
 # Run Application
 
 ## Clone the repository
+
 ```
 https://github.com/Ashutosh-tec/soft-engg-project-jan-2024-se-jan-11.git
 ```
-
 
 ## Go to respective directory
 
@@ -45,14 +42,14 @@ Run Backend
     python3 main.py
 ```
 
-Run Frontend 
+Run Frontend
 
 ```
 cd ../frontend
 npm run serve
-```    
+```
+
 ## 🔗 Credits
 
 - [Kanishk Mishra](https://github.com/Kanishk-Mishra)
-- []
-
+- [Utkarsh Kumar Yadav](https://github.com/Utkarsh2362)
