@@ -30,6 +30,7 @@ class DiscourseSearchAPI(Resource):
 
 class DiscoursePostsAPI(Resource):
     def __init__(self):
+        """Initialize the API with request parser."""
         self.parser = reqparse.RequestParser()
         self.parser.add_argument('title', type=str, help='Title of the post')
         self.parser.add_argument('content', type=str, help='Content of the post')
@@ -38,6 +39,7 @@ class DiscoursePostsAPI(Resource):
 
     # GET method to retrieve all posts from Discourse or a specific post
     def get(self, post_id=None):
+        """GET method to retrieve all posts from Discourse or a specific post."""
         if post_id:
             discourse_url = f'http://127.0.0.1:4200/posts/{post_id}.json'
         else:
@@ -48,6 +50,7 @@ class DiscoursePostsAPI(Resource):
     
     # POST method to create a new post in Discourse
     def post(self):
+        """POST method to create a new post in Discourse."""
         args = self.parser.parse_args()
         title = args['title']
         content = args['content']
@@ -75,6 +78,7 @@ class DiscoursePostsAPI(Resource):
 
     # PUT method to update an existing post in Discourse
     def put(self, post_id):
+        """PUT method to update an existing post in Discourse."""
         args = self.parser.parse_args()
         content = args['content']
         

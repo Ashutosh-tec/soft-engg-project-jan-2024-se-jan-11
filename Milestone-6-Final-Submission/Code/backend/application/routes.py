@@ -24,6 +24,9 @@ def get_users(current_user):
     return jsonify(results)
 
 def send_notification(ticket_title, ticket_description, webhook_url):
+    """
+    Send a notification to a webhook URL about a new high priority/urgent ticket.
+    """
     message = {
         "text": f"New high priority/urgent ticket:\nTitle: {ticket_title}\nDescription: {ticket_description}"
     }
