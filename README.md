@@ -49,9 +49,13 @@ cd ../frontend
 npm run serve
 ```
 
-## 🔗 Credits
+## 🔗 Contributors
 
 - [Kanishk Mishra](https://github.com/Kanishk-Mishra)
 - [Utkarsh Kumar Yadav](https://github.com/Utkarsh2362)
 - [Sushobhan Bhargav](https://github.com/SB-DS)
 - [Ashutosh Kumar Barnwal](https://github.com/Ashutosh-tec)
+- [Aditya Ravikumar](https://github.com/adityar2309)
+- [Nikhil Guru Venkatesh](https://github.com/ngv-sama)
+- [Shubhankar Jaiswal](https://github.com/shubhankar-git)
+
