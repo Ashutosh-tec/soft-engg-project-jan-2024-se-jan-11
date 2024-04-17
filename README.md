@@ -1,6 +1,6 @@
 # Ticket System Integration with Discourse and Webhook
 
-This repository contains the source code and milestone progress of the Team 11 Software Engineering Project of the IIT Madras BS Degree Program
+This repository contains the source code and milestone progress of the Team 11 Software Engineering Project of the IIT Madras BS Degree Program.
 
 ## Features
 
