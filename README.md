@@ -17,7 +17,7 @@
 ## Clone the repository
 
 ```
-https://github.com/Ashutosh-tec/soft-engg-project-jan-2024-se-jan-11.git
+git clone https://github.com/Ashutosh-tec/soft-engg-project-jan-2024-se-jan-11.git
 ```
 
 ## Go to respective directory
